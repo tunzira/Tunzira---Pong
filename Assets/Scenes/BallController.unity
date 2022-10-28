@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 198185321}
   - component: {fileID: 198185320}
   - component: {fileID: 198185322}
-  - component: {fileID: 198185323}
   m_Layer: 0
   m_Name: Tembok Bawah
   m_TagString: Untagged
@@ -201,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198185319}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.08, y: -4.32, z: -10}
+  m_LocalPosition: {x: 0.08, y: -4, z: -10}
   m_LocalScale: {x: 19.93405, y: 1.2294145, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -216,7 +215,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 198185319}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 91b23aceebae3ad479d18b9ab7a5141b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -233,27 +232,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &198185323
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198185319}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &552431967
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fe2d00040e623747a6c06d46389baa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 0, y: 1}
+  speed: {x: 2, y: 0}
 --- !u!58 &552431971
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -361,7 +339,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 552431967}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 91b23aceebae3ad479d18b9ab7a5141b, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -399,9 +377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 622237129}
   - component: {fileID: 622237128}
-  - component: {fileID: 622237131}
   - component: {fileID: 622237130}
-  - component: {fileID: 622237132}
   m_Layer: 0
   m_Name: Tembok Atas
   m_TagString: Untagged
@@ -468,7 +444,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622237127}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.08, y: 6.34, z: -10}
+  m_LocalPosition: {x: 0.08, y: 6, z: -10}
   m_LocalScale: {x: 19.93405, y: 1.2294145, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -483,7 +459,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 622237127}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 91b23aceebae3ad479d18b9ab7a5141b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -500,39 +476,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &622237131
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 622237127}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!114 &622237132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 622237127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94bd82fd74cc64a498438e2b0c0c08f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,7 +710,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.1792453, g: 0.11414205, b: 0.11414205, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -871,7 +814,7 @@ Transform:
   m_GameObject: {fileID: 1442322961}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.8, y: 1.02, z: -10}
-  m_LocalScale: {x: 0.25, y: 2, z: 1}
+  m_LocalScale: {x: 0.3, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -888,9 +831,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b640d21eda756843b42b5fbecc8c5e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  upkey: 119
-  downkey: 115
+  speed: 3
+  upkey: 273
+  downkey: 274
 --- !u!50 &1442322965
 Rigidbody2D:
   serializedVersion: 4
@@ -911,7 +854,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!61 &1442322966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -921,7 +864,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1442322961}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ea6a7f2caf1ae2a4890b30c633422510, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1018,7 +961,7 @@ Transform:
   m_GameObject: {fileID: 1567661233}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.85, y: 1.02, z: -10}
-  m_LocalScale: {x: 0.25, y: 2, z: 1}
+  m_LocalScale: {x: 0.3, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1035,9 +978,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b640d21eda756843b42b5fbecc8c5e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  upkey: 113
-  downkey: 97
+  speed: 3
+  upkey: 119
+  downkey: 115
 --- !u!50 &1567661237
 Rigidbody2D:
   serializedVersion: 4
@@ -1058,7 +1001,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!61 &1567661238
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1068,7 +1011,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1567661233}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ea6a7f2caf1ae2a4890b30c633422510, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
