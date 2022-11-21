@@ -37,4 +37,10 @@ public class PedalContorller : MonoBehaviour
         Debug.Log("TEST: " + movement);
         rig.velocity = movement;
     }
+    
+    //Masih ujicoba nambah besar pedal dan tamabh kecepatan tapi gagal, saya kurang dua effect ini aja. Saya kumpul semampu saya. bertahap saya bealajar lagi kak.
+    public void ActiveBigPedal()
+    {
+        transform.localScale += new Vector3 (0,5,0);
+    }
 }

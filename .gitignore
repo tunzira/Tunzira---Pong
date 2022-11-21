@@ -2,10 +2,9 @@ Library/*
 Logs/* 
 Temp/* 
 .vs/* 
-obj/* 
+obj/*
  
 .vsconfig 
 *.sln 
 *.csproj 
-UserSettings/EditorUserSettings.asset
-UserSettings/EditorUserSettings.asset
+

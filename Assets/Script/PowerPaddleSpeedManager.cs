@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PowerUpManager : MonoBehaviour
+public class PowerPaddleSpeedManager : MonoBehaviour
 {
     public Transform spawnArea;
     public int maxPowerUpAmount;
@@ -62,7 +62,7 @@ public class PowerUpManager : MonoBehaviour
                 return;
             }
 
-            Debug.Log("Test Spawn PowerUp");
+            Debug.Log("Test Spawn PowerUp Menambah Kecepatan Pedal");
 
             int randomIndex = Random.Range(0, powerUpTemplateList.Count);
 
@@ -86,6 +86,4 @@ public class PowerUpManager : MonoBehaviour
         }
 
     }
-
-    
 }
